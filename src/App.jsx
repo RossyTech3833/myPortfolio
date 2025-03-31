@@ -8,6 +8,7 @@ import Mobilemenu from './Mobilemenu'
 import About from './component/About'
 import Services from './component/Services'
 import Contact from './component/Contact'
+import Footer from './component/Footer'
 
 
 
@@ -24,6 +25,7 @@ const[menuOpen, setMenuopen] = useState(false)
      <About/>
      <Services/>
      <Contact/>
+     <Footer/>
     </>
   )
 }
