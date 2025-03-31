@@ -2,8 +2,8 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='min-h-screen flex justify-center'>
-        <h4 className='text-white'>c copyright @RossyTech-2025</h4>
+    <div className=' flex justify-center py-4'>
+        <h4 className='text-white'>&copy;copyright @RossyTech-2025</h4>
     </div>
   )
 }
