@@ -14,7 +14,7 @@ function About() {
           <p className='text-gray-300 mb-6'>passionate developer who likes to take on any challenge to develop a scaleable and nice performance
             website.and taking no as a motivation to be better in what am doing
           </p>
-
+      
           <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
             <div className='rounded-xl p-6 hover:translate-y-1 transition-all'>
              <h3 className='font-xl font-bold mb-4 text-gray-300'>frontend</h3>
@@ -26,7 +26,7 @@ function About() {
              </div>
             </div>
 
-            <div className='rounded-xl p-6hover:translate-y-1 transition-all'>
+            <div className='rounded-xl p-6 hover:translate-y-1 transition-all'>
              <h3 className='font-xl font-bold mb-4 text-gray-300'>Backend</h3>
              <div className='flex flex-wrap gap-2'>
               {backendskills.map((tech,key)=>(
